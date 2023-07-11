@@ -5,6 +5,8 @@ body {
     padding: 0;
 }
 
+
+
 /* common button color */
 .common-button {
     color: #FFF;
@@ -16,6 +18,36 @@ body {
     margin-left: 20px;
     border: none;
 }
+
+
+
+/* Nav Content */
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #E55473;
+}
+.navigation-title {
+    color:#272727 ;
+    font-size: 45px;
+    font-weight: 800;
+    padding-left: 75px;
+}
+nav > ul {
+    display: flex;
+}
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;    
+}
+
+
 
 /* Banner Content */
 .banner {
@@ -49,6 +81,8 @@ body {
     margin-left: 10px;
     margin-right: 20px
 }
+
+
 
 /* Featured Content */
 
@@ -120,6 +154,8 @@ body {
     text-decoration-line: underline;
 }
 
+
+
 /* Optional Content */
 .opt-sec-main {
     display: flex;
@@ -136,9 +172,7 @@ body {
 .opt-sec-icon {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    
-    
+    align-items: center; 
 }
 .opt-sec-icon1 {
     padding-right: 100px;
@@ -170,6 +204,8 @@ body {
     font-size: 24px;
     font-weight: 600;
 }
+
+
 
 /* Hot Deal Content */
 .hot-deal-content {
@@ -205,6 +241,8 @@ body {
     border: none;
     align-items: center;
 }
+
+
 
 /* Instagram Section */
 .ig-header {
@@ -242,6 +280,8 @@ body {
     margin-right: 240px;
     margin-bottom: 128px;
 }
+
+
 
 /* Latest Deals Section */
 
@@ -283,6 +323,8 @@ body {
     background: #FFFFFF;
 }
 
+
+
 /* Footer Section */
 
 .footer-section {
@@ -314,7 +356,6 @@ body {
     font-size: 16px;
     font-weight: 400;
     padding-bottom: 125px;
-   
 }
 
 
