@@ -119,6 +119,49 @@ body {
     font-weight: 700;
     text-decoration-line: underline;
 }
+
+/* Optional Content */
+.opt-sec-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 320px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: auto;
+    margin-top: 195px;
+    margin-bottom: 130px;
+}
+.opt-sec-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 35px;
+    
+}
+.opt-sec1-para {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    padding-right: 100px;
+    padding-left:-200px;
+}
+.opt-sec2-para {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    padding-right: 100px;
+}
+.opt-sec3-para {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+
 /* Hot Deal Content */
 .hot-deal-content {
     background: rgba(229, 84, 115, 0.05);
@@ -151,6 +194,7 @@ body {
     padding: 20px 43px;
     margin-left: 220px;
     border: none;
+    align-items: center;
 }
 
 /* Instagram Section */
